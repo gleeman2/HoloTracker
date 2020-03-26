@@ -365,6 +365,8 @@ paths:
                   type: string
                 LastName:
                   type: string
+                Role:
+                  type: string
                 Title:
                   type: string
     get:
@@ -1463,6 +1465,11 @@ components:
           x-skaffolder-id-attr: 5e7c78d106e8563f32299a65
           x-skaffolder-type: String
           x-skaffolder-required: true
+        Role:
+          type: string
+          x-skaffolder-id-attr: 5e7cad2906e8563f32299d03
+          x-skaffolder-type: String
+          x-skaffolder-required: true
         Title:
           type: string
           x-skaffolder-id-attr: 5e7c78d106e8563f32299a68
@@ -1487,6 +1494,7 @@ components:
       required:
         - _id
         - LastName
+        - Role
         - Title
     Farm:
       x-skaffolder-id: 5e7c790706e8563f32299a70

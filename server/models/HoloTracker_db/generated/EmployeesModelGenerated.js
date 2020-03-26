@@ -74,6 +74,10 @@ const generatedModel = {
         type: "String", 
         required: true
       },
+      Role: {
+        type: "String", 
+        required: true
+      },
       Title: {
         type: "String", 
         required: true
