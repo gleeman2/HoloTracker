@@ -86,10 +86,6 @@ const generatedModel = {
         type: Schema.ObjectId,
         ref: "Farm"
       },
-      _Products: [{
-        type: Schema.ObjectId,
-        ref: "Product"
-      }],
       
       
       // EXTERNAL RELATIONS
@@ -98,10 +94,6 @@ const generatedModel = {
         type: Schema.ObjectId,
         ref: "Farm"
       },
-      _Plants: [{
-        type: Schema.ObjectId,
-        ref: "Employees"
-      }],
       _Plants: {
         type: Schema.ObjectId,
         ref: "Product"

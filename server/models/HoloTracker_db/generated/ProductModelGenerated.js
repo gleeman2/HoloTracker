@@ -92,14 +92,6 @@ const generatedModel = {
         type: Schema.ObjectId,
         ref: "Distributer"
       }],
-      _Product: [{
-        type: Schema.ObjectId,
-        ref: "Employees"
-      }],
-      _Products: [{
-        type: Schema.ObjectId,
-        ref: "Plants"
-      }],
       */
     });
 

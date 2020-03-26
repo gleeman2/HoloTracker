@@ -78,10 +78,6 @@ const generatedModel = {
         type: "String"
       },
       // RELATIONS
-      _Farms: [{
-        type: Schema.ObjectId,
-        ref: "Farm"
-      }],
       _Product: [{
         type: Schema.ObjectId,
         ref: "Product"

@@ -1430,11 +1430,6 @@ components:
           x-skaffolder-id-attr: 5e7c7c2c06e8563f32299a94
           x-skaffolder-type: String
       x-skaffolder-relations:
-        _Farms:
-          x-skaffolder-id: 5e7c7d0206e8563f32299a9c
-          x-skaffolder-type: m:m
-          x-skaffolder-ent1: 5e7c7c2c06e8563f32299a90
-          x-skaffolder-ent2: 5e7c790706e8563f32299a6c
         _Product:
           x-skaffolder-id: 5e7c7d0206e8563f32299a9d
           x-skaffolder-type: m:m
@@ -1481,16 +1476,6 @@ components:
           x-skaffolder-type: m:m
           x-skaffolder-ent1: 5e7c78d106e8563f32299a64
           x-skaffolder-ent2: 5e7c790706e8563f32299a6c
-        _Plants:
-          x-skaffolder-id: 5e7c7d3806e8563f32299a9f
-          x-skaffolder-type: m:m
-          x-skaffolder-ent1: 5e7c78d106e8563f32299a64
-          x-skaffolder-ent2: 5e7c7b7106e8563f32299a7d
-        _Product:
-          x-skaffolder-id: 5e7c7d3806e8563f32299aa0
-          x-skaffolder-type: m:m
-          x-skaffolder-ent1: 5e7c78d106e8563f32299a64
-          x-skaffolder-ent2: 5e7c7bde06e8563f32299a88
       required:
         - _id
         - LastName
@@ -1570,11 +1555,6 @@ components:
           x-skaffolder-type: 1:m
           x-skaffolder-ent1: 5e7c7b7106e8563f32299a7d
           x-skaffolder-ent2: 5e7c790706e8563f32299a6c
-        _Products:
-          x-skaffolder-id: 5e7c7cc306e8563f32299a9a
-          x-skaffolder-type: m:m
-          x-skaffolder-ent1: 5e7c7b7106e8563f32299a7d
-          x-skaffolder-ent2: 5e7c7bde06e8563f32299a88
       required:
         - _id
         - BarCode

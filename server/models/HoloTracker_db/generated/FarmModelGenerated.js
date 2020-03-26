@@ -89,10 +89,6 @@ const generatedModel = {
       /*
       _Farms: [{
         type: Schema.ObjectId,
-        ref: "Distributer"
-      }],
-      _Farms: [{
-        type: Schema.ObjectId,
         ref: "Employees"
       }],
       _Farms: {
